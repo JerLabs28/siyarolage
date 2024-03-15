@@ -1,0 +1,133 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+    background-color: #f3f4f6;
+    color: white;
+    background-image: url('1218911.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.image{
+    max-width: 400px; 
+    border-radius: 50%; 
+    margin-left: auto; 
+    display: block;
+    float: right; 
+    margin-bottom: 20px; 
+    height: 400px;
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 50px;
+    transition: transform 0.5s ease-in-out;
+}
+
+header {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 10rem;
+}
+
+header h1 {
+    font-size: 30px;
+    width: 50%;
+}
+header nav{
+    width: 100%;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li a:hover {
+    color: #ffc107;
+    text-decoration: underline;
+}
+
+section {
+    padding: 50px 0;
+    margin-top: 50px;
+}
+
+
+section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+section p {
+    margin-top: 100px;
+    text-align: justify;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.image:hover {
+    transform: scale(1.05);
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+footer {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
